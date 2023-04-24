@@ -32,3 +32,28 @@
 .boton {
     background-color: rgb(39,156,67);
 }
+
+h6 {
+    font-size: 10px;
+}
+.oradores {
+    margin-right: 85px;
+    margin-left: 85px;
+}
+
+.btn-warning {
+    padding: 1px 3px 1px 3px;
+    font-size: 10px;
+}
+
+.btn-info {
+    padding: 1px 3px 1px 3px;
+    font-size: 10px;
+    color: white; 
+    background-color: rgb(23,162,183);
+}
+
+.botonAda{
+    padding: 1px 3px 1px 3px;
+    font-size: 10px;  
+}
