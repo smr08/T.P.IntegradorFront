@@ -5,5 +5,30 @@
 }
 
 .tickets {
-    color:rgb(39, 156, 67);
+    text-decoration-color:rgb(39, 156, 67);
+}
+
+.icono {
+    margin-left: 80px;
+}
+
+.enlaces {
+    margin-right: 80px;
+}
+
+.imgBanner {
+    background: linear-gradient(rgba(7, 7, 7, 0.5), rgba(7, 7, 7, 0.5)),
+                url(/assets/img/ba1.jpg)
+                center center
+                fixed;
+    background-size: cover;
+    height: 85vh;
+}
+
+.texto{
+    margin-right: 100px;
+}
+
+.boton {
+    background-color: rgb(39,156,67);
 }
