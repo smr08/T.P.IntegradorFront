@@ -67,3 +67,16 @@ h6 {
     font-size: 10px;
     padding: 10px;
 }
+
+.pConviertete {
+    font-size: 12px;
+}
+
+.formulario {
+    margin-left: 17em;
+    margin-right: 17em;
+}
+
+.btnFormulario{
+    background-color: rgb(150, 201, 62);
+}
