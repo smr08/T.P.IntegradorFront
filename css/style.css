@@ -80,3 +80,24 @@ h6 {
 .btnFormulario{
     background-color: rgb(150, 201, 62);
 }
+
+.footer {
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(28, 56, 68),rgb(43, 102, 134));
+    text-align: center;
+    font-size: 0.7em;
+}
+
+.itemsFooter {
+   margin-top: 2em;
+   margin-bottom: 2em;
+   margin-left: 1em;
+   margin-right: 1em;
+}
+
+a { 
+    text-decoration: none; 
+    color: white;
+}
+
+
