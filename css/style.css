@@ -18,7 +18,7 @@
 
 .imgBanner {
     background: linear-gradient(rgba(7, 7, 7, 0.5), rgba(7, 7, 7, 0.5)),
-                url(/assets/img/ba1.jpg)
+                url(../assets/img/ba1.jpg)
                 center center
                 fixed;
     background-size: cover;
