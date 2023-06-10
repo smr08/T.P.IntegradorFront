@@ -27,6 +27,9 @@ function resumen() {
 
     document.getElementById("total").innerHTML = `Total a pagar: $ ${totalCompra}`; 
     //   document.querySelector("#total").innerHTML = `Total a pagar: $ ${totalCompra}`; 
+}
 
+function borrar() {
+    document.getElementById("total").innerHTML = `Total a pagar: $`;
 }
 
