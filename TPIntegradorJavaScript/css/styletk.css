@@ -142,18 +142,6 @@
     margin: 2rem 0;
   }
   
-  .ticketsOutput .ticketsValue {
-    float: left;
-    }
-  
-  .ticketsOutput .ticketsBuy {
-  float: right;
-  cursor: pointer;
-  }
-  
-  
-  
-  
   .tickets-form .btnTickets {
     width: 49%;
     background-color: rgb(151, 201, 62);
@@ -163,7 +151,8 @@
     border-radius: 5px;
     border: none;
   }
-
+  
+/* footer */
 .footer {
     align-items: center;
     background-image: linear-gradient(to right, rgb(28, 56, 68),rgb(43, 102, 134));

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href=".//css/bootstrap.min.css">
-    <link rel="stylesheet" href=".//css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styletk.css">
     <title>Compra Ticket</title>
 </head>
 <body>
@@ -76,28 +76,27 @@
       </div>
 
 
-      <form class="ticketsForm" action="">
+      <form class="ticketsForm">
           <div class="tickets-form">
               <input type="text" class="ticketsFirstName" name="Nombre" placeholder="Nombre">
               <input type="text" class="ticketsLastName" name="Apellido" placeholder="Apellido">
               <input type="email" class="ticketsEmail" name="Email" placeholder="E-mail">
               <div class="labelTicketsQuantity">
-                  <label for="Cantidad">Cantidad</label>
-                  <input id="ticketsQuantity" type="text" class="ticketsQuantity" name="Cantidad"
+                  <label for="">Cantidad</label>
+                  <input id="cantidadEntrada" type="text" class="ticketsQuantity" name="Cantidad"
                       placeholder="Cantidad">
               </div>
               <div class="labelTicketsCategory">
-                  <label for="Categoria">Categoria</label>
-                  <select name="Categoria" class="ticketsCategory">
+                  <label for="">Categoria</label>
+                  <select id="opcionCategoria" name="Categoria" class="ticketsCategory">
                       <option value="Estudiante">Estudiante</option>
                       <option value="Trainee">Trainee</option>
                       <option value="Junior">Junior</option>
                   </select>
               </div>
-              <!-- <output class="ticketsOutput"><span class="ticketsValue">Total a pagar: </span><span class="ticketsBuy"><i class="fa-solid fa-cart-shopping"></i> Comprar</span></output> -->
-              <output class="ticketsOutput"><span class="ticketsValue">Total a pagar: $ </span></output>
+              <div id="total" class="ticketsOutput" role="alert">Total a pagar: $</div>
               <button id="ticketsBorrar" type="reset" class="btnTickets" name="Borrar">Borrar</button>
-              <button id="ticketsResumen" class="btnTickets" name="Resumen">Resumen</button>
+              <button id="botonResumen" type="button" onclick="resumen();" class="btnTickets" name="Resumen">Resumen</button>
           </div>
       </form>
 
@@ -136,7 +135,8 @@
 
 
    
-
-    <script src=".//js/bootstrap.min.js"></script>
+  <script src="./js/funciones.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  
 </body>
 </html>
